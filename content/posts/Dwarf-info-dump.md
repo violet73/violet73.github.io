@@ -1,7 +1,7 @@
 ---
 title: "Dwarf Info Dump"
 date: 2023-04-19T16:18:36+08:00
-draft: true
+draft: false
 ---
 ### Dwarf and Libdwarf
 
@@ -13,4 +13,4 @@ DWARF is a widely used, standardized debugging data format. Libdwarf is a C libr
 
 ### dwarf\_line\_info\_dump
 
-`dwarf_line_info_dump` is a tool to dump the line information belongs to every address in all cu\_dies contains in Dwarf. The key is to map the given objfile name and offset to its line info back to source code. The file dumpped by `dwarf_line_info_dump` started with the target objfile name following by the line number, high\_addr and low\_addr which match with the line number, as well as offsets which point to the filename and symbol name in the bottom of the file.
+`dwarf_line_info_dump` is a tool to dump the line information belonging to every address in all cu\_dies contained in Dwarf. The key is to map the given objfile name and offset to its line info back to the source code. The file dumped by `dwarf_line_info_dump` started with the target objfile name followed by the line number, high\_addr and low\_addr which match with the line number, as well as offsets that point to the filename and symbol name in the bottom of the file.

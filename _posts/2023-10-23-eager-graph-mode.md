@@ -28,4 +28,3 @@ There exists auto-differentiation (AD) mechanism in deep learning frameworks. Wi
 
 1. https://pytorch.org/blog/optimizing-production-pytorch-performance-with-graph-transformations/
 2. https://towardsdatascience.com/eager-execution-vs-graph-execution-which-is-better-38162ea4dbf6
-------
